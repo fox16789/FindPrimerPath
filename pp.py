@@ -56,7 +56,7 @@ def prime_path(simple_path_list):
 
 if __name__ == "__main__":
     start = time.time()
-    dirname = '.\\softwareTest\\test.txt'
+    dirname = 'test.txt'
     graph, numOfNode = readGraph(dirname)
     # numOfNode = len(graph)
     # all_path = []
